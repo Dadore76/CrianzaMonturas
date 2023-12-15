@@ -3,4 +3,4 @@
 as
 	SELECT * 
 	 FROM CruceMontura
-	WHERE TipoMonturaId = @TipoMontura;
+	WHERE RazaMontura = @TipoMontura;

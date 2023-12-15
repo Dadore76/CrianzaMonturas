@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="ad39dc05-fdbf-4494-b7e2-9f2f2fe977cb" ChangeDateTime="12/13/2023 21:05:46">
+    <Property Name="ElementName" Value="[dbo].[CruceMontura].[TipoMonturaId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CruceMontura]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RazaMontura" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76d72b56-38ef-4e0d-bc49-e2d306573da4" ChangeDateTime="12/13/2023 21:06:34">
+    <Property Name="ElementName" Value="[dbo].[CruceMontura].[TipoId_Masculino]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CruceMontura]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MonturaPadre" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a53d4f5f-9557-4625-a742-cda26c2589a0" ChangeDateTime="12/13/2023 21:06:41">
+    <Property Name="ElementName" Value="[dbo].[CruceMontura].[TipoId_Femenino]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CruceMontura]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MonturaMadre" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87b688d1-40a9-4459-88aa-313ef1a2ec12" ChangeDateTime="12/13/2023 21:06:49">
+    <Property Name="ElementName" Value="[dbo].[CruceMontura].[TipoIdResultado]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CruceMontura]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Resultado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2b67ae12-9ab5-4b91-ac31-7262a49b823b" ChangeDateTime="12/13/2023 21:08:57">
+    <Property Name="ElementName" Value="[dbo].[CruceMontura].[TiempoGestación]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CruceMontura]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TiempoGestacion" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="41c02d4b-80c3-4073-8620-fda8ecf06beb" ChangeDateTime="12/13/2023 21:10:13">
+    <Property Name="ElementName" Value="[dbo].[Montura].[TipoMonturaId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Montura]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RazaMontura" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="971c6022-0d31-45e1-a61f-d78993d95dbe" ChangeDateTime="12/13/2023 22:01:50">
+    <Property Name="ElementName" Value="[dbo].[Tipo].[TipoMonturaId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tipo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RazaMontura" />
+  </Operation>
+</Operations>

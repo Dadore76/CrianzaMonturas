@@ -3,4 +3,4 @@
 as
 	SELECT * 
 	 FROM Tipo
-	WHERE TipoMonturaId = @TipoMontura;
+	WHERE RazaMontura = @TipoMontura;

@@ -3,10 +3,8 @@
 as
 	SELECT * 
 	 FROM Montura
-	WHERE TipoMonturaId = @TipoMontura
-		AND (Esteril = 0
-			AND Reproducible = 1)
-		OR (Esteril = 1
-			AND Fecundada = 1)
-	ORDER BY TipoId,
+	WHERE RazaMontura = @TipoMontura
+		AND Reproducible = 1
+		OR Fecundada = 1
+	ORDER BY Tipo,
 			Nombre
